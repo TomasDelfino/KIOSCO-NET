@@ -1,0 +1,1 @@
+import { API_URL } from './api'; export const resolveImage=(u)=>{ if(!u) return ''; if(u.startsWith('/')) return `${API_URL}${u}`; return u }
